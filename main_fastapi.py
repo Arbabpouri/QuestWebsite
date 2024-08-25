@@ -9,7 +9,7 @@ from modules.response import Response
 from modules.database import Database, QuestsAndAnswers
 from modules.enums import ResponseCode, ResponseMessage
 
-
+ــTOKEN__ = "5f5c92f0-3a37-41c6-b96d"
 
 app = FastAPI()
 
@@ -143,8 +143,6 @@ async def get_answers(answers: AnsewrsModel) -> Response:
 async def show_answer(token: str) -> Response:
 
     try:
-
-        ــTOKEN__ = "5f5c92f0-3a37-41c6-b96d-c83554311245"
 
         if token == ــTOKEN__:
 

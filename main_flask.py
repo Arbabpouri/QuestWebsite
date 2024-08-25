@@ -6,6 +6,7 @@ from modules.response import Response
 from modules.database import Database, QuestsAndAnswers
 from modules.enums import ResponseCode, ResponseMessage
 
+ــTOKEN__ = "5f5c92f0-3a37-41c6-b96d"
 
 app: Flask = Flask(__name__)
 
@@ -124,7 +125,6 @@ def answers_manage() -> Response:
     elif request.method == "GET":
         try:
 
-            ــTOKEN__ = "5f5c92f0-3a37-41c6-b96d-c83554311245"
             token = request.args.get("token")
 
             if not token:
