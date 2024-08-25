@@ -4,9 +4,7 @@ Welcome to the Q&A Backend System! This project is a simple backend service that
 
 ## 🚀 Features
 
-- **Flask Integration**: Manage basic question and answer requests.
-- **FastAPI Integration**: High-performance API for efficient handling of requests.
-- **Admin Panel**: Secure access to view and manage answers using a token.
+- **Admin**: Secure access to view and manage answers using a token.
 - **Data Storage**: Answers are stored in a database for easy retrieval.
 
 ## Database to CSV - > [SqlToCsv](https://github.com/arbabpouri/SqlToCsv)
